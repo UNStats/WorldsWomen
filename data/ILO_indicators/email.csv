@@ -1,0 +1,184 @@
+indicator,disaggregation,code
+"03a Labour force participation rate for persons aged 15-24, by sex",male,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_Y15-24
+
+sex=SEX_M"
+"03a Labour force participation rate for persons aged 15-24, by sex",female,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_Y15-24
+
+sex=SEX_F"
+"03a Labour force participation rate for persons aged 15-24, by sex",bothsex,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_Y15-24
+
+sex=SEX_T"
+"03b Labour force participation rate for persons aged 15+, by sex",male,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_YGE15
+
+sex=SEX_M"
+"03b Labour force participation rate for persons aged 15+, by sex",female,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_YGE15
+
+sex=SEX_F"
+"03b Labour force participation rate for persons aged 15+, by sex",bothsex,"collection=YI
+
+indicator=EAP_DWAP_SEX_AGE_RT
+
+classif1=AGE_YTHADULT_YGE15
+
+sex=SEX_T"
+"04 Proportion of employed who are own-account workers, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_3
+
+sex=SEX_M"
+"04 Proportion of employed who are own-account workers, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_3
+
+sex=SEX_F"
+"04 Proportion of employed who are own-account workers, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_3
+
+sex=SEX_T"
+"05 Proportion of employed who are contributing family workers, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_5
+
+sex=SEX_M"
+"05 Proportion of employed who are contributing family workers, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_5
+
+sex=SEX_F"
+"05 Proportion of employed who are contributing family workers, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_5
+
+sex=SEX_T"
+"06 Proportion of employed who are employers, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_2
+
+sex=SEX_M"
+"06 Proportion of employed who are employers, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_2
+
+sex=SEX_F"
+"06 Proportion of employed who are employers, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_STE_DT
+
+classif1=STE_ICSE93_2
+
+sex=SEX_T"
+"08a Percentage distribution of employed population in agricultural sector, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1= ECO_SECTOR_AGR
+
+sex=SEX_M"
+"08a Percentage distribution of employed population in agricultural sector, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1= ECO_SECTOR_AGR
+
+sex=SEX_F"
+"08a Percentage distribution of employed population in agricultural sector, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1= ECO_SECTOR_AGR
+
+sex=SEX_T"
+"08b Percentage distribution of employed population in industrial sector, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_IND
+
+sex=SEX_M"
+"08b Percentage distribution of employed population in industrial sector, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_IND
+
+sex=SEX_F"
+"08b Percentage distribution of employed population in industrial sector, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_IND
+
+sex=SEX_T"
+"08c Percentage distribution of employed population in service sector, by sex",male,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_SER
+
+sex=SEX_M"
+"08c Percentage distribution of employed population in service sector, by sex",female,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_SER
+
+sex=SEX_F"
+"08c Percentage distribution of employed population in service sector, by sex",bothsex,"collection=YI
+
+indicator=EMP_TEMP_SEX_ECO_DT
+
+classif1=ECO_SECTOR_SER
+
+sex=SEX_T"
+"14 Proportion of employed working part-time, by sex",male,"collection=YI
+
+indicator=EMP_PTER_SEX_RT
+
+sex=SEX_M"
+"14 Proportion of employed working part-time, by sex",female,"collection=YI
+
+indicator=EMP_PTER_SEX_RT
+
+sex=SEX_F"
+"14 Proportion of employed working part-time, by sex",bothsex,"collection=YI
+
+indicator=EMP_PTER_SEX_RT
+
+sex=SEX_T"
