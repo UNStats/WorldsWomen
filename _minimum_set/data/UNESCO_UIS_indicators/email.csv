@@ -1,0 +1,56 @@
+﻿GSMI,Indicator,Disaggregation,Old_Code
+20,"20. Youth literacy rate of persons (15-24 years), by sex",Both_sexes,LR_Ag15t24
+20,"20. Youth literacy rate of persons (15-24 years), by sex",Female,LR_Ag15t24_F
+20,"20. Youth literacy rate of persons (15-24 years), by sex",Male,LR_Ag15t24_M
+20,"20. Youth literacy rate of persons (15-24 years), by sex",GPI,LR_Ag15t24_gpi
+21,21. Adjusted net enrolment rate in primary education by sex,Both_sexes,NERA_1_cp
+21,21. Adjusted net enrolment rate in primary education by sex,Female,NERA_1_F_cp
+21,21. Adjusted net enrolment rate in primary education by sex,Male,NERA_1_M_cp
+21,21. Adjusted net enrolment rate in primary education by sex,GPI,NERA_1_gpi
+22,"22.Gross enrolment ratio in secondary education, by sex",Both_sexes,GER_2t3
+22,"22.Gross enrolment ratio in secondary education, by sex",Female,GER_2t3_F
+22,"22.Gross enrolment ratio in secondary education, by sex",Male,GER_2t3_M
+23,"23. Gross enrolment ratio in tertiary education, by sex",Both_sexes,GER_5t8
+23,"23. Gross enrolment ratio in tertiary education, by sex",Female,GER_5t8_F
+23,"23. Gross enrolment ratio in tertiary education, by sex",Male,GER_5t8_M
+24a,24a. Gender parity index of the gross enrolment ratio in primary education,GPI,GER_1_gpi
+24b,24b. Gender parity index of the gross enrolment ratio in secondary education,GPI,GER_2t3_gpi
+24c,24c. Gender parity index of the gross enrolment ratio in tertiary education,GPI,GER_5t8_gpi
+25,"25.Share of female science, technology , engineering and mathematics graduates at tertiary level (old science, engineering, manufacturing and construction)",Female,FGP_5T8_F500600700
+26,26.Proportion of females among tertiary education teachers or professors,GPI,FTP_5t8
+27,"27. Adjusted net intake rate to the first grade of primary education, by sex",Both_sexes,NIRA_1_cp
+27,"27. Adjusted net intake rate to the first grade of primary education, by sex",Female,NIRA_1_F_cp
+27,"27. Adjusted net intake rate to the first grade of primary education, by sex",Male,NIRA_1_M_cp
+27,"27. Adjusted net intake rate to the first grade of primary education, by sex",GPI,NIRA_1_gpi
+28,"28. Primary education completion rate (proxy), by sex",Both_sexes,AIR_1_Glast
+28,"28. Primary education completion rate (proxy), by sex",Female,AIR_1_Glast_F
+28,"28. Primary education completion rate (proxy), by sex",Male,AIR_1_Glast_M
+28,"28. Primary education completion rate (proxy), by sex",GPI,AIR_1_Glast_gpi
+29,"29. Gross graduation ratio from lower secondary education, by sex",Both_sexes,GGR_2
+29,"29. Gross graduation ratio from lower secondary education, by sex",Female,GGR_2_F
+29,"29. Gross graduation ratio from lower secondary education, by sex",Male,GGR_2_M
+29,"29. Gross graduation ratio from lower secondary education, by sex",GPI,GGR_2_gpi
+30,"30. Effective transition rate from primary to lower secondary education (general programmes), by sex",Both_sexes,TRANRA_2_GPV_CP
+30,"30. Effective transition rate from primary to lower secondary education (general programmes), by sex",Female,TRANRA_2_GPV_F_CP
+30,"30. Effective transition rate from primary to lower secondary education (general programmes), by sex",Male,TRANRA_2_GPV_M_CP
+30,"30. Effective transition rate from primary to lower secondary education (general programmes), by sex",GPI,TRANRA_2_GPV_GPI
+31a,"31a. Cumulative Educational attainment (minimum primary) of the population aged 25 and older, by sex",Both_sexes,EA_1t8_AG25t99
+31a,"31a. Cumulative Educational attainment (minimum primary) of the population aged 25 and older, by sex",Female,EA_1t8_AG25t99_F
+31a,"31a. Cumulative Educational attainment (minimum primary) of the population aged 25 and older, by sex",Male,EA_1t8_AG25t99_M
+31a,"31a. Cumulative Educational attainment (minimum primary) of the population aged 25 and older, by sex",GPI,EA_1t8_AG25t99_gpi
+31b,"31b. Cumulative Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex",Both_sexes,EA_2t8_AG25t99
+31b,"31b. Cumulative Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex",Female,EA_2t8_AG25t99_F
+31b,"31b. Cumulative Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex",Male,EA_2t8_AG25t99_M
+31b,"31b. Cumulative Educational attainment (minimum lower secondary) of the population aged 25 and older, by sex",GPI,EA_2t8_AG25t99_gpi
+31c,"31c. Cumulative Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex",Both_sexes,EA_3t8_AG25t99
+31c,"31c. Cumulative Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex",Female,EA_3t8_AG25t99_F
+31c,"31c. Cumulative Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex",Male,EA_3t8_AG25t99_M
+31c,"31c. Cumulative Educational attainment (minimum upper secondary) of the population aged 25 and older, by sex",GPI,EA_3t8_AG25t99_gpi
+31d,"31d. Cumulative Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex",Both_sexes,EA_4t8_AG25t99
+31d,"31d. Cumulative Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex",Female,EA_4t8_AG25t99_F
+31d,"31d. Cumulative Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex",Male,EA_4t8_AG25t99_M
+31d,"31d. Cumulative Educational attainment (minimum post-secondary) of the population aged 25 and older, by sex",GPI,EA_4t8_AG25t99_gpi
+31e,"31e. Cumulative Educational attainment (minimum tertiary) of the population aged 25 and older, by sex",Both_sexes,EA_5t8_AG25t99
+31e,"31e. Cumulative Educational attainment (minimum tertiary) of the population aged 25 and older, by sex",Female,EA_5t8_AG25t99_F
+31e,"31e. Cumulative Educational attainment (minimum tertiary) of the population aged 25 and older, by sex",Male,EA_5t8_AG25t99_M
+31e,"31e. Cumulative Educational attainment (minimum tertiary) of the population aged 25 and older, by sex",GPI,EA_5t8_AG25t99_gpi
