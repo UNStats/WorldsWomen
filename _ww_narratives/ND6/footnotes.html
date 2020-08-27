@@ -1,0 +1,108 @@
+<!--This is based on https://www.sitepoint.com/accessible-footnotes-css/ -->
+<style>
+    .footnotes {
+        border-top: 1px solid #555;
+    }
+
+    /**
+ * Initialiazing a `footnotes` counter on the wrapper
+ */
+    article {
+        counter-reset: footnotes;
+    }
+
+    /**
+ * Inline footnotes references
+ * 1. Increment the counter at each new reference
+ * 2. Reset link styles to make it appear like regular text
+ */
+    a[aria-describedby="footnote-label"] {
+        counter-increment: footnotes;
+        /* 1 */
+        text-decoration: none;
+        /* 2 */
+        color: inherit;
+        /* 2 */
+        cursor: default;
+        /* 2 */
+        outline: none;
+        /* 2 */
+    }
+
+    /**
+ * Actual numbered references
+ * 1. Display the current state of the counter (e.g. `[1]`)
+ * 2. Align text as superscript
+ * 3. Make the number smaller (since it's superscript)
+ * 4. Slightly offset the number from the text
+ * 5. Reset link styles on the number to show it's usable
+ */
+    a[aria-describedby="footnote-label"]::after {
+        content: '['counter(footnotes) ']';
+        /* 1 */
+        vertical-align: super;
+        /* 2 */
+        font-size: 0.5em;
+        /* 3 */
+        margin-left: 2px;
+        /* 4 */
+        color: blue;
+        /* 5 */
+        text-decoration: underline;
+        /* 5 */
+        cursor: pointer;
+        /* 5 */
+    }
+
+    /**
+ * Resetting the default focused styles on the number
+ */
+    a[aria-describedby="footnote-label"]:focus::after {
+        outline: thin dotted;
+        outline-offset: 2px;
+    }
+
+    .footnotes :target {
+        background: rgb(248, 248, 122);
+    }
+</style>
+
+<div class="footnotes">
+    <h5 id="footnote-label">Footnotes</h5>
+    <ol>
+        <li id="fn1">Inter-Parliamentary Union (IPU), 1997, Universal Declaration on Democracy, article 4 (<a
+                href="http://archive.ipu.org/cnl-e/161-dem.htm">link</a>).</li>
+        <li id="fn2">Mary Caprioli, “Gendered Conflict”, Journal of Peace Research, vol. 37, Issue. 1 (2000).</li>
+        <li id="fn3">Astghik Mavisakalyan and Yashar Tarverdi, “Gender and climate change: Do female parliamentarians
+            make difference?”, European Journal of Political Economy, vol. 56 (2019).</li>
+        <li id="fn4">IPU,2012, Plan of Action for Gender-Sensitive Parliaments (<a
+                href="https://www.ipu.org/resources/publications/reference/2016-07/plan-action-gender-sensitive-parliaments">link</a>).
+        </li>
+        <li id="fn5">IPU,2016, Sexism, harassment and violence against women in parliament, Issues brief (<a
+                href="https://www.ipu.org/resources/publications/issue-briefs/2016-10/sexism-harassment-and-violence-against-women-parliamentarians">link</a>;
+            and
+            IPU,2019, Guidelines for the elimination of sexism, harassment and violence against women in parliament (<a
+                href="https://www.ipu.org/resources/publications/reference/2019-11/guidelines-elimination-sexism-harassment-and-violence-against-women-in-parliament">link</a>).
+        </li>
+        <li id="fn6">IPU and the Parliamentary Assembly of the Council of Europe, 2018, “Sexism, harassment and violence
+            against women in
+            parliaments in Europe”, Issues Brief (<a
+                href="https://www.ipu.org/resources/publications/issue-briefs/2018-10/sexism-harassment-and-violence-against-women-in-parliaments-in-europe">link</a>).
+        </li>
+        <li id="fn7">Gender quotas, which aim to reverse discrimination in law and practice and to level the playing
+            field for women in
+            politics, are numerical targets that stipulate the number or percentage of women that must be included in a
+            candidate
+            list or the number of seats to be allocated to women in a legislature. Gender quotas may be mandated in the
+            constitution, stipulated in national legislation or formulated in a political party statute.</li>
+        <li id="fn8">IPU, Women in Parliament: 1990–2020-25 years in review (<a
+                href="https://www.ipu.org/resources/publications/reports/2020-03/women-in-parliament-1995-2020-25-years-in-review">link</a>).
+        </li>
+        <li id="fn9">Ibid., data includes parliamentary chambers in both lower and upper houses.</li>
+        <li id="fn10">IPU and the United Nations Entity for Gender Equality and the Empowerment of Women (UN-Women)
+            2020,“Women in Politics:
+            2020” (<a
+                href="https://www.ipu.org/resources/publications/infographics/2020-03/women-in-politics-2020">link</a>).
+        </li>
+    </ol>
+</div>

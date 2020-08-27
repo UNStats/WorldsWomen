@@ -1,0 +1,115 @@
+<!--This is based on https://www.sitepoint.com/accessible-footnotes-css/ -->
+<style>
+    .footnotes {
+        border-top: 1px solid #555;
+    }
+
+    /**
+ * Initialiazing a `footnotes` counter on the wrapper
+ */
+    article {
+        counter-reset: footnotes;
+    }
+
+    /**
+ * Inline footnotes references
+ * 1. Increment the counter at each new reference
+ * 2. Reset link styles to make it appear like regular text
+ */
+    a[aria-describedby="footnote-label"] {
+        counter-increment: footnotes;
+        /* 1 */
+        text-decoration: none;
+        /* 2 */
+        color: inherit;
+        /* 2 */
+        cursor: default;
+        /* 2 */
+        outline: none;
+        /* 2 */
+    }
+
+    /**
+ * Actual numbered references
+ * 1. Display the current state of the counter (e.g. `[1]`)
+ * 2. Align text as superscript
+ * 3. Make the number smaller (since it's superscript)
+ * 4. Slightly offset the number from the text
+ * 5. Reset link styles on the number to show it's usable
+ */
+    a[aria-describedby="footnote-label"]::after {
+        content: '['counter(footnotes) ']';
+        /* 1 */
+        vertical-align: super;
+        /* 2 */
+        font-size: 0.5em;
+        /* 3 */
+        margin-left: 2px;
+        /* 4 */
+        color: blue;
+        /* 5 */
+        text-decoration: underline;
+        /* 5 */
+        cursor: pointer;
+        /* 5 */
+    }
+
+    /**
+ * Resetting the default focused styles on the number
+ */
+    a[aria-describedby="footnote-label"]:focus::after {
+        outline: thin dotted;
+        outline-offset: 2px;
+    }
+
+    .footnotes :target {
+        background: rgb(248, 248, 122);
+    }
+</style>
+
+<article>
+    <h1>CSS-Powered Footnotes</h1>
+
+    <p>Maintaining <a aria-describedby="footnote-label" href="#footnotes">footnotes</a> manually can be a pain.
+        By using <a aria-describedby="footnote-label" href="#css">CSS</a> <a aria-describedby="footnote-label"
+            href="#css-counters">counters</a> to add
+        the numbered references in the text and an ordered list to display the actual
+        footnotes in the footer, it becomes extremely easy.</p>
+
+    <p>In 2020, women are free under the law to participate in political activity in all countries worldwide, although
+        significant obstacles to their effective access to parliament remain, including: gender stereotypes; unequal
+        access to resources and education; unequal social and legal status; and violence and harassment perpetrated
+        against women in politics and women aspirants to political office. </p>
+    <p>Despite these challenges, there has been a continuous improvement in women’s access to parliament, with slow but
+        steady progress in representation over the past 25 years. From 1995 to 2020, the proportion of parliamentary
+        seats held by women rose from 11.3% to 24.9%. Improvement appears to have slowed down, however, since 2015 – and
+        currently, in 2020, women hold at least 50% of the seats in only four national parliaments.</p>
+    <p>
+        From the regional perspective, major milestones have been achieved in recent years in Australia and New Zealand,
+        Latin America and the Caribbean and Europe and Northern America. However, Oceania, excluding Australia and New
+        Zealand, continues to lag behind, with only 6% of parliamentary seats being held by women.</p>
+    <p>To a large extent such progress is the result of the introduction of targeted policy and legal measures to
+        increase women’s representation in national parliaments. Of the 20 countries with the highest percentages of
+        women in parliament, 16 apply some type of gender quota.</p>
+    <p>
+        Few women in politics reach the higher echelons of parliamentary hierarchies, particularly at the top levels as
+        president or speaker of the house. Although the percentage of female presiding officers of parliament almost
+        doubled, from 10.5% in 1995 to 20.5% in 2020, it is still too low to influence policy making effectively.</p>
+    <p>
+        Women continue to be underrepresented in key decision-making positions in parliaments, with the exception of
+        gender equality committees, 73% of which are chaired by women. </p>
+
+    <div class="footnotes">
+        <h5 id="footnote-label">Footnotes</h5>
+        <ol>
+            <li id="footnotes">Footnotes are notes placed at the bottom of a page. They
+                cite references or comment on a designated part of the text above it.</li>
+
+            <li id="css">Cascading Style Sheets</li>
+
+            <li id="css-counters">CSS counters are, in essence, variables maintained by
+                CSS whose values may be incremented by CSS rules to track how many times
+                they're used.</li>
+        </ol>
+    </div>
+</article>
