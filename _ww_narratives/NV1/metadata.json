@@ -1,0 +1,30 @@
+{
+    "code": "NV1",
+    "title": "Intimate partner physical and/or sexual violence",
+    "theme": "Violence against women and the girl child",
+    "sd-goals": null,
+    "sd-targets": null,
+    "sd-indicators": [
+        "5.2.1"
+    ],
+    "beijing-objectives": [
+        "D1. Take integrated measures to prevent and eliminate violence against women"
+    ],
+    "related-narratives": [
+        "NV8",
+        "NW28",
+        "NV7",
+        "NV10",
+        "NV11",
+    ],
+    "labels": [
+        "Oceania (excl)",
+        "Southern Asia",
+        "sub-Saharan Africa",
+        "COVID-19",
+        "youth",
+        "older persons",
+        "indigenous peoples"
+    ],
+    "appid": "50dd1b2d6167437693178836261522e6"
+}
