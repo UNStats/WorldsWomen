@@ -1,0 +1,29 @@
+{
+    "code": "NV8",
+    "title": "Violence against women and the girl child",
+    "theme": "Femicide in Latin America and the Caribbean",
+    "sd-goals": null,
+    "sd-targets": [
+        "16.1"
+    ],
+    "sd-indicators": [
+        "5.2.1",
+        "5.2.2"
+    ],
+    "beijing-objectives": [
+        "D.1. Take integrated measures to prevent and eliminate violence against women",
+        "H.3."
+    ],
+    "related-narratives": [
+        "NV7",
+        "NV1"
+    ],
+    "labels": [
+        "Latin America and the Caribbean",
+        "El Salvador",
+        "Honduras",
+        "Guyana",
+        "Saint Lucia"
+    ],
+    "appid": "1e0b01c9ef34415bac07df60c1aa30c0"
+}
