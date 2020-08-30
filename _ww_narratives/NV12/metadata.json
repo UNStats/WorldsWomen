@@ -1,0 +1,27 @@
+{
+    "code": "NV12",
+    "title": "Attitudes towards physical violence against women",
+    "theme": "Violence against women and the girl child",
+    "sd-goals": [
+        "5.2",
+        "16.1"
+    ],
+    "sd-targets": null,
+    "sd-indicators": [],
+    "beijing-objectives": [
+        "D.1 Take integrated measures to prevent and eliminate violence against women",
+        "D.2 Study the causes and consequences of violence against women and the effectiveness of preventive measures"
+    ],
+    "related-narratives": [
+        "NV1"
+    ],
+    "labels": [
+        "Oceania (excl)",
+        "Asia",
+        "Africa",
+        "adolescent",
+        "Afghanistan",
+        "Papua New Guinea"
+    ],
+    "appid": "f47f85a0e8d64a01a8d9613ad30b84cf"
+}
