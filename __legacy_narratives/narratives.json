@@ -1,0 +1,33 @@
+[
+    {
+        "id": "ND1",
+        "title": "Power and decision making",
+        "theme": "Women in managerial positions",
+        "sdgReferences": [
+            "5.5.2"
+        ],
+        "beijingReferences": [],
+        "relatedNarratives": [
+            "NW1",
+            "ND2"
+        ],
+        "labels": [
+            "Latin America and the Caribbean",
+            "Australia and New Zealand",
+            "Europe and Northern America",
+            "Northern Africa and Western Asia",
+            "Central and Southern Asia",
+            "Eastern and South-Eastern Asia"
+        ],
+        "appID": "0d1ff2530f17451bb8437c6ea584282e",
+        "sections": [
+            {
+                "sectionID": 1,
+                "sectionType": "frontpage",
+                "content": [
+                    "<div class="title">Women in managerial positions</div>"
+                ]
+            }
+        ]
+    }
+]

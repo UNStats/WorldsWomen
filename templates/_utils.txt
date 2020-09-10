@@ -1,0 +1,5 @@
+<span class="label-ref"></span>
+
+<span class="footnote-index">x</span>
+
+<a href=#NV1 class="narrative-ref">x</a>
